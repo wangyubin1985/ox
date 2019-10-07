@@ -1,0 +1,10 @@
+code.language=oracle-jdk1.8
+build.output=target/ox.jar
+
+# docker构建所用的Dockerfile的路径
+docker.file=Dockerfile
+# docker构建完成之后，要push到的docker repo
+docker.repo=registry.cn-beijing.aliyuncs.com/wyb_test/fineway_test
+
+# 使用时间戳做docker tag，这样打出来的docker镜像就形如：registry.cn-hangzhou.aliyuncs.com/mynamespace/container-app:20170622232633
+docker.tag=${TIMESTAMP}
