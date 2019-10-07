@@ -1,0 +1,13 @@
+package ox.oxmall;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class OxmallApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(OxmallApplication.class, args);
+	}
+
+}
